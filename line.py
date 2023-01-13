@@ -4,7 +4,7 @@ def main():
     send_notify('message')
 
 def send_notify(message):
-    token = ''
+    token = 'XXXXXXXXX'
     api_url = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': 'Bearer ' + token}
     data = {'message': message}
